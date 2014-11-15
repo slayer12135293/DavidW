@@ -1,0 +1,36 @@
+<section>
+    <form method="post" name="sendMailForm" action="http://www.davidwesterlund.com/cgi-bin/FormMail.pl"  accept-charset="ISO-8859-1" 
+    onsubmit="var originalCharset = document.charset; document.charset = 'ISO-8859-1'; window.onbeforeunload = function () {document.charset=originalCharset;};">
+        <fieldset class="scheduler-border">
+            <legend class="scheduler-border">Send me a mail or book a concert</legend>
+            <div class="row input_row">
+                <div class="col-md-8">
+                    <input type="text" placeholder="Name" name="realname" class="form-control text_field" required /><br />
+                </div>
+                <div class="col-md-8">
+                    <input type="email" placeholder="E-mail" name="email" class="form-control text_field" required /><br />
+                </div>
+
+                <div class="col-md-8">
+                    <input type="text" placeholder="Subject" name="Subject" class="form-control text_field" required /><br />
+                </div>
+
+                <div class="col-md-8">
+                    <textarea rows="8" placeholder="Content" name="Content" class="form-control text_field" required ></textarea><br />
+          
+                </div>
+
+            </div>
+
+            <input type="submit" class="btn btn-large btn-primary" value="Send" />
+            
+            
+            <input type="hidden" name="recipient" value="info@davidwesterlund.com" />
+            <input type="hidden" name="subject" value="Mail from site" />
+            <input type="hidden" name="redirect" value="http://www.davidwesterlund.com/index.php" />
+            <input type="hidden" name="missing_fields_redirect" value="http://www.davidwesterlund.com/index.php" />
+            <input type="hidden" name="required" value="realname,email,Subject,Content" />
+        </fieldset>
+
+    </form>
+</section>
