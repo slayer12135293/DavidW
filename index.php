@@ -9,29 +9,44 @@
 
         <link type="text/css" rel="stylesheet" href="Style/site.css">
     </head>
-    <body data-ng-controller="IndexController">
-
-        <section class="container" data-ng-view>
-        </section>
+    <body>
 
         <section class="container">
-            <footer></footer>
+            <h1> Connect with David Westerlund</h1>
+
+            <section class="row">
+                <section class="col-md-6"><a href="https://www.facebook.com/pages/David-Westerlund/131148210290494?fref=ts" target="_blank"><img src="Images/F_icon.svg.png" width="200px" height="200px"> </a></section>
+                <section class="col-md-6"><a href="https://www.youtube.com/user/thorwest/videos" target="_blank"><img src="Images/yt_logo.jpg"> </a></section>
+            </section>
+            <section class="row">
+                <section class="col-md-6"><a href="https://www.facebook.com/GamersNightSweden" target="_blank"><img src="Images/gamers_night.png"> </a></section>
+                <section class="col-md-6"><a href="http://www.gamemusicentertainment.com/" target="_blank"><img src="Images/GME_logga.jpg"> </a></section>
+            </section>
+            <section class="row">
+                <section class="col-md-6"><a href="http://www.castlevaniaconcert.com/" target="_blank"><img src="Images/castle.png"></a></section>
+                <section class="col-md-6"><a href="https://www.facebook.com/thewhitemages?fref=ts" target="_blank"><img src="Images/wm.png"> </a></section>
+            </section>
         </section>
 
 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-resource.min.js"></script>
-        <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
-
-        <script type="text/jscript" src="Scripts/DavidApp.js"></script>
-        <script type="text/jscript" src="Scripts/Controllers/IndexController.js"></script>
-        <script type="text/jscript" src="Scripts/Controllers/SendMailController.js"></script>
 
 
         <script type="text/javascript">
 
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
             
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-26354585-1']);
